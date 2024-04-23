@@ -1,0 +1,45 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  height: 300px;
+  width: 200px;
+  padding: 10px 2px 1px;
+  margin: 10px;
+}
+.repo-image {
+  height: 80px;
+  width: 80px;
+}
+.name {
+  color: #e73959;
+  font-size: 20px;
+}
+.count-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.counts-images {
+  height: 14px;
+  width: 14px;
+  margin: 8px;
+}
+.counts {
+  color: #1e293b;
+  font-size: 14px;
+}
