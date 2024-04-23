@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+}
+.filter-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.popular-repos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  height: 300px;
+  width: 300px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .failure-image {
+    height: 150px;
+    width: 150px;
+  }
+}
