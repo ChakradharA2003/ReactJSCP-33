@@ -33,8 +33,8 @@ class GithubPopularRepos extends Component {
   }
 
   onChangeLanguages = id => {
-    this.setState({languages: id})
-    this.renderRepositoryItems()
+    this.setState({languages: id},
+    this.renderRepositoryItems)
   }
 
   renderRepositoryItems = async () => {
